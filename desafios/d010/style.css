@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Droid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body {
+    background-color: #D4D1B1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0px 20px 20px 20px;
+}
+
+h2 {
+    font-weight: 500;
+    color: #14392C;
+    font-family: 'Droid', Times, serif;
+    padding: 20px 15px 0px 15px;
+    margin: 0px ;
+}
+
+h3 {
+    color: #055D27;
+    font-family: 'Droid', Times, serif;
+    background-image: linear-gradient(to right, #87DEAF, #ffffff);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #21814E, #0a2a1a);
+    color: white;
+    height: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+header > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header > nav > a{
+    border-radius: 5px;
+    color: #8ACBA6;
+    font-size: 0.9em;
+    font-weight: bold;
+    height: 500px;
+    margin: 10px;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+header > nav > a:hover {
+    background-color: #2C945D;
+    color: #005622;
+}
+
+main {
+    background-color: white;
+    border-radius: 0px 0px 5px 5px ;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.333);
+    padding-bottom: 15px;
+    width: 850px;
+    margin: 0px auto;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: #043D1D;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/*----- CLASSES -----*/
+.aprender {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.333);
+    margin: auto;
+    padding-bottom: 15px;
+    width: 800px;
+}
+
+.aprenderDois {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.espacamento {
+    padding: 0px 15px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.listas {
+    font-size: 0.9em;
+    width: 350px;
+}
+
+.links {
+    color: #055D27;
+    font-weight: bold;
+}
+
+.paragrafo {
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+.video {
+    background-color: #043D1D;
+    text-align: center;
+    padding: 20px;
+}
+
+
