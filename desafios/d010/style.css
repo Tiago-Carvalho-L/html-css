@@ -70,7 +70,8 @@ main {
     border-radius: 0px 0px 5px 5px ;
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.333);
     padding-bottom: 15px;
-    width: 850px;
+    min-width: 350px;
+    max-width: 850px;
     margin: 0px auto;
 }
 
@@ -93,6 +94,10 @@ footer > p {
     text-align: center;
 }
 
+ul {
+    columns: 2;
+}
+
 
 /*----- CLASSES -----*/
 .aprender {
@@ -101,7 +106,6 @@ footer > p {
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.333);
     margin: auto;
     padding-bottom: 15px;
-    width: 800px;
 }
 
 .aprenderDois {
@@ -114,7 +118,8 @@ footer > p {
 }
 
 .imagem {
-    text-align: center;
+    margin: auto;
+    width: 100%;
 }
 
 .listas {
@@ -138,8 +143,17 @@ footer > p {
 
 .video {
     background-color: #043D1D;
-    text-align: center;
     padding: 20px;
+    padding-bottom: 54%;
+    position: relative;
+}
+
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 
