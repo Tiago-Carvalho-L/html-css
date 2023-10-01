@@ -24,3 +24,19 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    background-color: wheat;
+}
+
+header {
+    background-color: #063d1e;
+    min-height: 150px;
+}
+
+main {
+    min-width: 450px;
+    max-width: 830px;
+    margin: auto;
+    background-color: white;
+}
