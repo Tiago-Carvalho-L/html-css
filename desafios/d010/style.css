@@ -17,7 +17,7 @@
     
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-android: 'Android', sans-serif;    
+    --fonte-android: 'Droid', sans-serif;    
 }
 
 *{
@@ -28,7 +28,7 @@
 body {
     background-color: #EBE5C5;
     font-size: 16px;
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-padrao)
 }
 
 header {
@@ -43,7 +43,7 @@ header h1{
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
-    text-shadow: 4px 1px 5px rgba(0, 0, 0, 0.388);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.388);
     padding: 40px 40px 20px 40px;
 }
 
@@ -56,6 +56,7 @@ header p{
 
 nav{
     background-color: var(--cor5);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.189);
     padding: 10px;
 }
 
@@ -67,8 +68,42 @@ nav a{
 }
 
 main {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.189);
     min-width: 450px;
-    max-width: 830px;
+    max-width: 1000px;
     margin: auto;
+    margin-bottom: 30px;
     background-color: white;
+    padding: 20px;
+
+}
+
+main h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+main p {
+    line-height: 2em;
+    text-indent: 30px;
+    margin: 15px 0px;
+}
+
+footer {
+    background-color: var(--cor5); 
+    color: white;   
+    text-align: center;
+    padding: 5px;
 }
