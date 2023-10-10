@@ -101,6 +101,16 @@ main p {
     margin: 15px 0px;
 }
 
+main img{
+    width: 100%;
+}
+
+main img.imagemMascote{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
 footer {
     background-color: var(--cor5); 
     color: white;   
