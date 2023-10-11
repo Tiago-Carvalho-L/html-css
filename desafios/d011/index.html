@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio astronaut</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        section.container{
+            position: relative;
+
+            height: 100vh;
+            width: 100vw;
+
+            background-color: black;
+            background-image: url('imagens/espaco.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        article.son{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        article.son img{
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <article class="son">
+            <img src="imagens/astronauta.png" alt="astronaut image">
+        </article>
+    </section>
+</body>
+</html>
