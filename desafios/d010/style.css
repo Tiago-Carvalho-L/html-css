@@ -61,10 +61,17 @@ nav{
 }
 
 nav a{
+    border-radius: 5px;
     color: var(--cor1);
     font-weight: bold;
     text-decoration: none; 
     padding: 10px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 
 main {
@@ -78,6 +85,24 @@ main {
     background-color: white;
     padding: 20px;
 
+}
+
+main a {
+    background-color: var(--cor1);
+    border-radius: 3px;
+    color: var(--cor5);
+    font-weight: bold;
+    text-decoration: none; 
+    padding: 5px;    
+}
+
+main a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+}
+
+main a::after{
+    content: '\00A0\1F517';
 }
 
 main h1 {
@@ -101,6 +126,10 @@ main p {
     margin: 15px 0px;
 }
 
+main strong {
+    color: var(--cor4);
+}
+
 main img{
     width: 100%;
 }
@@ -111,9 +140,57 @@ main img.imagemMascote{
     margin: auto;
 }
 
+main div.video {
+    position: relative;
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.9%;
+}
+
+main div.video iframe{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+}
+
+main aside {
+    background-color: var(--cor1);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+main aside h3{
+    background-color: var(--cor4);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}
+
+main aside ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+main aside a {
+    background-color: #b4fed7;
+    color: var(--cor5);
+}
+
+main aside strong {
+    color: var(--cor5);
+}
+
+
 footer {
     background-color: var(--cor5); 
     color: white;   
+    font-size: 0.8em;
     text-align: center;
     padding: 5px;
 }
